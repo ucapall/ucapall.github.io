@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Asgalt;
+    src: url('Asgalt-Regular.ttf')
+}
+
 @keyframes load {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
@@ -69,4 +74,48 @@ img.loader {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
+}
+
+div.first {
+    z-index: 0;
+    background-image: url(Galaxy.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: left;
+    opacity: 1;
+    display: block;
+}
+
+div.body {
+    z-index: 0;
+    font-family: 'Asgalt';
+    background-color: dimgrey;
+    color: white;
+    clear: both;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    display: inline-block;
+}
+
+body {
+    margin: auto;
+}
+
+div.first h1{
+    height: 10%;
+    width: 25%;
+    top: 40%;
+    left: 2%;
+    position: absolute;
+    color: white;
+    font-family: 'Asgalt';
+    font-size: 128px;
 }
