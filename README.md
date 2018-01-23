@@ -1,2 +1,2 @@
-# ucapall.github.io
-Website for capitalists
+# United Capitalist Alliance
+Website repository
