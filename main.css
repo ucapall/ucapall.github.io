@@ -79,28 +79,24 @@ img.loader {
 div.first {
     z-index: 0;
     background-image: url(Galaxy.jpg);
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: absolute;
     top: 0;
     right: 0;
     justify-content: center;
     align-items: left;
     opacity: 1;
     display: block;
+    clear: both;
 }
 
 div.body {
-    z-index: 0;
     font-family: 'Asgalt';
     background-color: dimgrey;
     color: white;
     clear: both;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    right: 0;
+    position: absolute;
     opacity: 1;
     display: inline-block;
 }
@@ -118,4 +114,9 @@ div.first h1{
     color: white;
     font-family: 'Asgalt';
     font-size: 128px;
+}
+
+div.page-wrap {
+    clear: both;
+    align-items: center;
 }
