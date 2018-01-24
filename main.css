@@ -90,6 +90,7 @@ div.first {
     display: block;
     clear: both;
     margin-bottom: -5px;
+	margin-top: -50px;
 }
 
 div.first img {
