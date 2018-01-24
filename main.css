@@ -89,13 +89,13 @@ div.first {
     opacity: 1;
     display: block;
     clear: both;
-    margin-bottom: -150px;
+    margin-top: -150px;
 }
 
 div.first img {
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     padding: 0px;
     margin: 0px;
 }
@@ -105,7 +105,7 @@ div.body1 {
     color: black;
     clear: right;
     opacity: 1;
-    display: inline-block;
+    display: block;
     padding: 0px;
     margin: auto;
     height: 500px;
@@ -115,14 +115,14 @@ div.body1 {
 
 div.body1 h1 {
     font-family: Asgalt;
-    font-size: 85px;
+    font-size: 3.5vw;
     padding-left: 10px;
     margin: auto;
 }
 
 div.body1 p {
     font-family: Asgalt;
-    font-size: 48px;
+    font-size: 1.75vw;
     padding-left: 10px;
     margin: auto;
 }
@@ -148,7 +148,7 @@ div.bodylogo img {
 body {
     margin: auto;
     padding: 0px;
-    background-image: url(Galaxy.jpg);
+    background-color: dimgray;
     font-family: Asgalt;
 }
 
@@ -160,7 +160,7 @@ div.first h1{
     position: absolute;
     color: white;
     font-family: 'Asgalt';
-    font-size: 128px;
+    font-size: 5.3vw;
 }
 
 div.page-wrap {
