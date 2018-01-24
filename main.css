@@ -77,9 +77,9 @@ img.loader {
 }
 
 div.first {
+    margin: auto;
+    padding: 0px;
     z-index: 0;
-    background-image: url(Galaxy.jpg);
-    position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
@@ -91,18 +91,64 @@ div.first {
     clear: both;
 }
 
-div.body {
-    font-family: 'Asgalt';
-    background-color: dimgrey;
-    color: white;
-    clear: both;
-    position: absolute;
+div.first img {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.body1 {
+    background-color: white;
+    color: black;
+    clear: right;
     opacity: 1;
     display: inline-block;
+    padding: 0px;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+div.body1 h1 {
+    font-family: Asgalt;
+    font-size: 85px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+div.body1 p {
+    font-family: Asgalt;
+    font-size: 48px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+div.bodylogo {
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    clear: ;
+    opacity: 1;
+    display: inline-block;
+    padding: 0px;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+
+div.bodylogo img {
 }
 
 body {
     margin: auto;
+    padding: 0px;
+    background-image: url(Galaxy.jpg);
+    font-family: Asgalt;
 }
 
 div.first h1{
