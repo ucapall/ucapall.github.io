@@ -1,3 +1,12 @@
+/*
+    Color Scheme:
+    #000019 - Rich Black
+    #F1FFEF - Honeydew White
+    #F11102 - Candy Apple Red
+    #00106B - Dark Imperial Blue
+    #00FFEE - Turquoise Blue
+*/
+
 @font-face {
     font-family: Asgalt;
     src: url('Asgalt-Regular.ttf')
@@ -77,9 +86,10 @@ img.loader {
 }
 
 div.first {
+    background-color: #0019;
     margin: auto;
     padding: 0px;
-    z-index: 0;
+    z-index: 1;
     height: 100%;
     width: 100%;
     top: 0;
@@ -95,13 +105,13 @@ div.first {
 div.first img {
     height: 100%;
     width: 100%;
-    opacity: 1;
+    opacity: 0;
     padding: 0px;
     margin: 0px;
 }
 
 div.body1 {
-    background-color: white;
+    background-color: #F1FFEF;
     color: black;
     clear: right;
     opacity: 1;
@@ -127,10 +137,10 @@ div.body1 p {
     margin: auto;
 }
 
-div.bodylogo {
+div.fill1 {
     justify-content: center;
     align-content: center;
-    background-color: black;
+    background-color: #000018;
     color: white;
     clear: ;
     opacity: 1;
@@ -140,9 +150,6 @@ div.bodylogo {
     height: 500px;
     width: 50%;
     float: right;
-}
-
-div.bodylogo img {
 }
 
 body {
@@ -167,3 +174,40 @@ div.page-wrap {
     clear: both;
     align-items: center;
 }
+
+div.body2 {
+    background-color: #F1FFEF;
+    color: black;
+    clear: left;
+    opacity: 1;
+    display: block;
+    padding: 0px;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+
+div.fill2 {
+    justify-content: center;
+    align-content: center;
+    background-color: #000018;
+    color: white;
+    clear: left;
+    opacity: 1;
+    display: inline-block;
+    padding: 0px;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+/*
+    Color Scheme:
+    #000019 - Rich Black
+    #F1FFEF - Honeydew White
+    #F11102 - Candy Apple Red
+    #00106B - Dark Imperial Blue
+    #00FFEE - Turquoise Blue
+*/
